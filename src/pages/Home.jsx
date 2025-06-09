@@ -6,15 +6,15 @@ const Home = () => {
   return (
     <section className="min-h-screen bg-[#0f0f1b] text-white flex flex-col sm:flex-row items-center justify-center px-6 sm:px-12 py-12">
       {/* Social icons */}
-      <div className="hidden sm:flex flex-col space-y-6 mr-12">
+      <div className="hidden sm:flex flex-col space-y-10 mr-12">
         <a href="https://www.linkedin.com/in/nicole-leow-40b117214/" target="_blank" rel="noreferrer">
-          <FaLinkedin className="text-xl hover:text-blue-500" />
+          <FaLinkedin className="text-2xl hover:text-blue-500" />
         </a>
         <a href="https://github.com/nicoleleoww" target="_blank" rel="noreferrer">
-          <FaGithub className="text-xl hover:text-gray-400" />
+          <FaGithub className="text-2xl hover:text-gray-400" />
         </a>
         <a href="mailto:nicole.leow@hotmail.com">
-            <FaEnvelope className="text-xl hover:text-pink-400" />
+            <FaEnvelope className="text-2xl hover:text-pink-400" />
         </a>
       </div>
 
