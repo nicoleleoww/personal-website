@@ -1,10 +1,17 @@
-import React from 'react'
+import { Route, Routes } from "react-router-dom";
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Experiences from './pages/Experiences'
 
 function App() {
   return (
-    <div>
-      <h1>Hello, React + Vite!</h1>
-    </div>
+    <>
+      <Navbar />
+			<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/Experiences" element={<Experiences />} />
+			</Routes>
+    </>
   )
 }
 
