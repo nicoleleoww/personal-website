@@ -4,8 +4,8 @@ const Navbar = () => {
   const location = useLocation();
 
   const navLinkClass = (path) =>
-    `hover:text-purple-400 transition duration-200 ${
-      location.pathname === path ? 'text-purple-400 font-semibold' : ''
+    `font-semibold hover:text-purple-400 transition duration-200 ${
+      location.pathname === path ? 'text-purple-400' : ''
     }`;
 
   return (
