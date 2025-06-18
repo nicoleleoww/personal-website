@@ -22,7 +22,7 @@ const Home = () => {
         </h1>
         <h2 className="text-xl sm:text-2xl mb-4">I study Computer Science & Mechatronics Engineering</h2>
         <p className="text-sm text-gray-400 mb-6">
-          Passionate about people, technology, and impact.
+          Passionate about people, technology, and impact. Curious and always eager to learn.
         </p>
         <a
           href={resume}
