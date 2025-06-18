@@ -1,7 +1,7 @@
 const projects = [
   {
     name: 'Personal Portfolio Website',
-    description: 'Designed and developed a fully responsive personal website to showcase experiences, projects, and resume. Built using React, Tailwind CSS, and deployed with GitHub Pages.',
+    description: 'Designed and developed a fully responsive personal website to showcase experiences, projects, and resume. Built using React, Tailwind CSS, and deployed with GitHub Pages. Automated deployment of website using GitHub Actions, enabling continuous deployment to GitHub Pages.',
     skills: ['React', 'Tailwind CSS', 'JavaScript', 'GitHub Pages',],
   },
   {
