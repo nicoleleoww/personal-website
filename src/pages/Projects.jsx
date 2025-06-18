@@ -1,5 +1,10 @@
 const projects = [
   {
+    name: 'Personal Portfolio Website',
+    description: 'Designed and developed a fully responsive personal website to showcase experiences, projects, and resume. Built using React, Tailwind CSS, and deployed with GitHub Pages.',
+    skills: ['React', 'Tailwind CSS', 'JavaScript', 'GitHub Pages',],
+  },
+  {
     name: 'Bookings.com - Web-based Room Booking System',
     description: 'Developed a full-stack room booking system using React, Express.js, TypeScript, Prisma, and PostgreSQL. Communicated effectively with the client to gather and validate requirements, ensuring alignment with project goals.',
     skills: ['React', 'TypeScript', 'Express.js', 'PostgreSQL', 'Prisma'],
