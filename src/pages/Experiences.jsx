@@ -29,7 +29,24 @@ const Experiences = () => {
     <div className="bg-[#0f0f1b] min-h-screen px-4 sm:px-16 py-12 text-white">
       <h2 className="text-2xl sm:text-4xl font-bold text-white mb-10">Work Experiences</h2>
       <ExperienceCard
-        title="Undergraduate Software Engineer"
+        title="Fullstack Software Engineer Intern"
+        roles={[
+          {
+            company: 'Displayr',
+            location: 'Sydney, Australia',
+            duration: 'Dec 2025 - Current',
+            description: [
+              'Developed and maintained full-stack features using C#, TypeScript and React.',
+              'Built and maintained backend services using .NET, Entity Framework and LINQ, integrating with relational databases.',
+              'Wrote and optimised SQL queries to support application features and data workflows.',
+              'Collaborated closely with designers, engineers and the product manager to plan features, refine requirements and deliver project milestones.',
+              'Participated in sprint planning, code reviews and team discussions to improve code quality and delivery processes.'
+            ]
+          }
+        ]}
+      />
+      <ExperienceCard
+        title="Undergraduate Domain Engineer"
         roles={[
           {
             company: 'Telstra',
